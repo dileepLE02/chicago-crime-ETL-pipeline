@@ -11,6 +11,9 @@ An end-to-end data engineering pipeline that automates the extraction, transform
 ## 📁 Repository Structure
 * `chicago_crime_project.ipynb` - Core Jupyter Notebook containing the full programmatic Python ETL code blocks.
 * `chicago_crime_dashboard.pbix` - Power BI business intelligence workspace file.
+* `sql/` - Directory containing relational database definition scripts.
+  * `create_table.sql` - Optimized DDL schema design configuration for MySQL.
+* `output/` - Directory containing project execution assets and dashboard screenshots.
 
 ## 💡 Key Challenges Solved
 * Managed subtle data structure differences between Python DataFrames and strict MySQL relational tables (such as mapping NumPy `NaN` values to absolute SQL `NULL` structures).
